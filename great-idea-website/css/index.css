@@ -257,7 +257,6 @@ header nav a {
 }
 
 .main-bottom {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
     padding: 2em 0;
 }
 
@@ -269,6 +268,7 @@ header nav a {
 
 .contact {
     padding: 2em 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.25);
 }
 
 .copyright {
@@ -286,7 +286,8 @@ h3 {
 }
 
 p {
-    color: rgba(0, 0, 0, 0.9);
+    color: rgb(51, 51, 51);
+    font-size: 18px;
 }
 
 .cta button:hover {
@@ -363,12 +364,6 @@ p {
     width: 100%;
 }
 
-.vision-card p {
-    font-size: 18px;
-    color: rgb(87, 87, 87);
-    font-family: Arial, sans-serif;
-}
-
 br {
     margin: 15px 0;
 }
@@ -400,4 +395,28 @@ br {
     margin-left: 175px;
     animation: buttonOffHover 300ms ease-out forwards;
     margin-top: 20px;
+}
+
+.vision-main-img {
+    background-image: url(/great-idea-website/img/octavian-rosca-SYbD0jfSF3s-unsplash.jpg);
+    background-size: cover;
+    background-position-y: -165px;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 50px;
+    margin: 60px 0;
+}
+
+.vision-card-small {
+    display: inline-block;
+    width: 49%;
+    padding-right: 2em;
+}
+
+.main p {
+    margin-bottom: 40px;
+}
+
+br {
+    margin: 0;
 }
